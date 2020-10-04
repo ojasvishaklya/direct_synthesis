@@ -5,9 +5,8 @@ Consider a first-order process with a desired closed-loop response that is secon
 order. Use the direct synthesis procedure with the following specified closed-loop
 transfer function (which is critically damped),
 
-          1
-q(s) = --------
-        (λs+1)^2
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
+
 
 to derive the controller. Perform simulations for several values of λ and plot the
 closed loop response and corresponding control signal variations.
